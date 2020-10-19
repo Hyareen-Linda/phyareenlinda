@@ -1,0 +1,229 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13pt;
+    background: #FF5F6D;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    padding: 10px;
+    margin: 0;
+}
+/*--------------------------------------------HEADER------------------------------------------------*/
+#header{
+    background-size: cover;
+    overflow: hidden;
+    background-color: ivory;
+    padding: 30px 10px;
+    margin-left: -2% ;
+}
+#navbar a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 10px;
+}
+#navbar a:hover{
+    background-color: palegoldenrod;
+    color: black;
+} 
+#navbar a.active{
+    background-color: gold;
+    color: white;
+}  
+#navbar{
+    overflow: hidden;
+    background-color: lightyellow;
+    padding: 5px 10px;
+    transition: 0.4s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+#navbar #user {
+    font-size: 30px;
+    font-weight: bolder;
+    transition: 0.4s;
+    color: turquoise;
+    text-shadow: 2px 2px #43a09d;
+    font-family: fantasy;
+  }
+  #navbar-right {
+    float: right;
+  } 
+#header p{
+    font-size: 60px;
+    color: skyblue;
+    text-shadow: 2px 2px dodgerblue;
+    padding-top: 5px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family: fantasy;
+}
+.section {
+    background: #9796f0; 
+    background: -webkit-linear-gradient(to top, #fbc7d4, #9796f0); 
+    background: linear-gradient(to top, #fbc7d4, #9796f0);
+    padding: 55px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+/*---------------------------------------------INFO---------------------------------------------------*/
+#info img{
+    float: left;
+    border: 8px inset fuchsia;
+    margin-left: 50px;
+    margin-top: -3%;
+}
+#info p{
+    font-size: 60px;
+    margin-left: 35%;
+    color: gold;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -5px 3px yellowgreen;
+    text-decoration: wavy;
+}
+img{
+    transition: width 2s, height 2s, transform 2s;
+}
+img:hover{
+    width: 350px;
+    height: 400px;
+    transform: rotate(360deg);
+}
+/*-------------------------------------------ABOUT---------------------------------------------------*/
+#about{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: right;
+}
+#about pre{
+    text-align: left;
+    font-size: 25px;
+}
+/*------------------------------------------GEN(H2)-----------------------------------------------*/
+h2 {
+    font-size: 15pt;
+    color: deeppink;
+    text-shadow: 1px 1px purple;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h2 span {
+    border: 4px inset deeppink;
+    padding: 10px;
+    background-color: plum;
+}
+/*-----------------------------------------SKILL-----------------------------------------------*/
+progress {
+    width: 70%;
+    height: 23px;
+    border-radius: 7px;
+    color: deeppink;
+    background: #efefef;
+    text-align: center;
+    padding: 0;
+}
+progress::-webkit-progress-bar {
+    background: #efefef;
+    border-radius: 7px;
+}
+progress::-webkit-progress-value {
+    background: deeppink;
+    border-radius: 7px;
+} 
+progress::-moz-progress-bar {
+    color: deeppink;
+    background: #efefef;
+    border-radius: 7px;
+}
+li{
+    font-size: 25px;
+}
+/*---------------------------------------CONTACT ME----------------------------------------*/
+#contact{
+    text-align: center;
+    margin-top: 0;
+}
+.submit {
+    background-color: deeppink;
+    padding: 12px 45px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    margin: 0;
+    font-weight: bold;
+}
+.submit:hover {
+    background-color: rgba(255, 20, 145, 0.712);
+}
+textarea {
+    height: 100px;
+}
+input, textarea {
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px 10px;
+    border: 1px solid #cecece;
+    background-color: #efefef;
+    color: #787575;
+    border-radius: 5px;
+    width: 70%;
+    outline: none;
+}
+/*---------------------------------------FOLLOW ME----------------------------------------*/
+#follow a {
+    text-decoration: none;
+}
+
+#follow {
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+} 
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-github {
+    background: #211F1F;
+    color: white;
+}
+/*--------------------------------------------------------OTHERS--------------------------------------------------------------------*/
+
+  
+  
+    
